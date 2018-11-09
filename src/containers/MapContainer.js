@@ -28,7 +28,7 @@ export default class MapContainer extends Component {
         } = this.props;
 
         if (!loaded) {
-            return <div>'Map loading...'</div>
+            return <div>Map loading...</div>
         }
 
         return (
